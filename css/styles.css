@@ -1,69 +1,69 @@
 @charset "utf-8";
 
-.conteiner{
+.conteiner {
   padding: 0px 250px;
   box-sizing: border-box;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 60px;
 }
 
-h2{
-  margin-top: 550px;
+h2 {
   text-align: center;
 }
 
-#main-character{
-  width:350px;
+.flex {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.main,
+.enemy {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+#main-character {
+  width: 350px;
   height: 340px;
-  float:left;
-  margin: 20px 0 8px 0;
   opacity: 1;
   transition: all 2s;
 }
 
-#enemy{
-  width:350px;
+#enemy {
+  width: 350px;
   height: 340px;
-  float:right;
-  margin-top: 28px;
   opacity: 1;
   transition: all 2s;
 }
 
-.HP{
-  width:300px;
+.HP {
+  width: 300px;
   height: 25px;
-  background-color: #ADFF2F;
+  background-color: #adff2f;
+  margin: 0 auto;
 }
 
-#mein-HP{
-  float: left;
-}
-
-#enemy-HP{
-  float: right;
-  margin-top: -25px
-}
-
-.hidden{
+.hidden {
   display: none;
 }
 
-#botton{
-  position: absolute;
-  top: 530px;
-  left: 580px;
+#botton {
+  width: 150px;
+  margin: 0 auto;
 }
 
-#start{
+#start {
   text-align: center;
   display: inline-block;
-  width: 100px;
+  width: 150px;
+  padding: 10px 0;
   margin-top: 30px;
-  padding: 15px 40px;
   background-color: #006400;
   color: white;
   cursor: pointer;
